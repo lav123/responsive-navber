@@ -1,0 +1,41 @@
+
+.lapolo .nav,
+.lapolo .collapse,
+.lapolo .dropup,
+.lapolo .dropdown {
+  position: static;
+}
+.lapolo .container {
+  position: relative;
+}
+.lapolo .dropdown-menu {
+  left: auto;
+}
+.lapolo .dropdown-content {
+  padding: 20px 30px;
+}
+.lapolo .dropdown.lapolo-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+.bkcolo {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.player ,.club ,.tournament ,.viewall, .gear, .pleasure, .fashion, .brand{
+color:#999999;
+}
+ul {
+  list-style-type: none;
+}
+.dropdown-menu a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar{
+margin-bottom: 0px;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
